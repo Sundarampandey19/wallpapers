@@ -1,0 +1,55 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.image-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  background: #fff;
+  cursor: pointer; /* Show that the card is clickable */
+}
+
+.image-thumbnail {
+  width: 100%;
+  height: auto;
+}
+
+.image-details {
+  padding: 15px;
+  background: #f9f9f9;
+  border-top: 1px solid #ddd;
+}
+
+.image-details h2 {
+  font-size: 1.2em;
+  margin-top: 0;
+}
+
+.image-details p {
+  margin: 5px 0;
+}
+
+.image-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.image-details a:hover {
+  text-decoration: underline;
+}
